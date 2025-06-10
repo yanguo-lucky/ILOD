@@ -1,8 +1,8 @@
 # Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement
 
-
 **Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement**<br>
-the visual computer <br>
+
+These codes are directly related to the current manuscript submitted to The Visual Computer: Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement. <br>
 
 <p align="center">
 <img src="ilod.png" width="95%">
