@@ -22,7 +22,7 @@ the visual computer <br>
 ## Dataset download
 1. Download the datasets (BDD100K / SHIFT)
 
-2. Split dataset into two parts using labels ‘day’ and ‘night’. You can download our split files from [Google Drive](https://drive.google.com/drive/folders/1vpfbwIN-plvyKaTfYIJ5U1R0fHPS9GqC?usp=drive_link, https://drive.google.com/drive/folders/1YcDi4UtQdH9LKfsEQgPCm2q5wU9Il6VX?usp=drive_link).
+2. Split dataset into two parts using labels ‘day’ and ‘night’. You can download our split files from [Google Drive](https://drive.google.com/drive/folders/1hcNGL5suCEbDG5Z7OTgrlq_jylE5aKBE?usp=drive_link).
 
 3. Organize the dataset with the following format
 
