@@ -1,12 +1,13 @@
-# 2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection
+# Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement
 
 This repo is the official implementation of our paper: <br>
 **Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement**<br>
 the visual computer <br>
 
 <p align="center">
-<img src="ilod.jpg" width="95%">
+<img src="ilod.png" width="95%">
 </p>
+
 
 
 # Installation
