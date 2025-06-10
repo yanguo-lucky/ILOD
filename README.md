@@ -1,17 +1,13 @@
 # 2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection
 
-<img src="pytorch-logo-dark.png" width="10%">[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) 
-
 This repo is the official implementation of our paper: <br>
-**2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection**<br>
-*Mikhail Kennerley, Jian-Gang Wang, Bharadwaj Veeravalli, Robby T. Tan* <br>
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br>
-[[Paper](https://arxiv.org/abs/2303.13853)]
-
+**Improving Low-Light Object Detection via Domain Adaptation and Image Enhancement**<br>
+the visual computer <br>
 
 <p align="center">
-<img src="arch.jpg" width="95%">
+<img src="ilod.jpg" width="95%">
 </p>
+
 
 # Installation
 
@@ -82,23 +78,5 @@ python train_net.py \
       --config configs/faster_rcnn_R50_bdd100k.yaml \
       MODEL.WEIGHTS <your weight>.pth
 ```
-## Pretrained Weights
-| **Dataset** | **Model Link**                                                 |
-|-------------|----------------------------------------------------------------|
-| BDD100K     | https://www.dropbox.com/s/812l6wdbonabp9k/model_final.pth?dl=0 |
-| SHIFT       | Coming soon...                                                 |
-
-# Citation
-
-If you use 2PCNet in your research or wish to refer to the results published in our paper, please use the following BibTeX entry:
-```BibTeX
-@inproceedings{kennerley2023tpcnet,
-  title={2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection},
-  author={Mikhail Kennerley, Jian-Gang Wang, Bharadwaj Veeravalli, Robby T. Tan},
-  booktitle={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2023},
-}
-```
-
 # Acknowledgements
-Code is adapted from [Detectron2](https://github.com/facebookresearch/detectron2) and [Adaptive Teacher](https://github.com/facebookresearch/adaptive_teacher).
+Code is adapted from [Detectron2](https://github.com/facebookresearch/detectron2) and [2pcnet](https://github.com/mecarill/2pcnet).
